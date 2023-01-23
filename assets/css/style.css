@@ -50,22 +50,26 @@ h3 {
 /* -----O-----O----- */
 
 header {
+  height: 73px;
   background-color: #fff;
-  height: 73 px;
-  border-bottom: 1px #f3735f;
+  border-bottom: 2px solid #f3735f;
 }
 
 header img {
   width: 240px;
   height: 38px;
+  margin: 15px 0;
 }
 
 /* -----O-----O----- */
 /* -----MAIN----- */
 /* -----O-----O----- */
 
+main section {
+  margin: 55px 200px 55px 200px;
+}
 main h1.container {
-  padding: 10px 0;
+  padding: 100px 0px 10px 0px;
 }
 
 /* ---Baseline--- */
@@ -87,17 +91,68 @@ main h1.container {
   line-height: 60px;
   height: 60px;
   width: 400px;
-  margin: 20px auto;
+  margin: 30px auto 40px auto;
   border-radius: 10px;
 }
 
 /* ---SECTION CREPES---*/
 
 .crepes img {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   object-position: left;
   border-radius: 10px;
-  margin: 30px auto;
+  margin: 20px 20px 20px 20px;
+}
+
+/* ---Ingrédients--- */
+
+main .container h2 {
+  margin-left: 20px;
+}
+
+main .container h3 {
+  padding: 15px 0px 0px 0px;
+  margin-left: 20px;
+  line-height: 18px;
+}
+
+main .container ul li {
+  margin-left: 35px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #6c6c6c;
+  list-style-type: disc;
+}
+
+main .container .step1 {
+  font-family: "Inter", sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+  word-spacing: 2px;
+  line-height: 18px;
+}
+
+main .container .step2 {
+  font-family: "Inter", sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+  word-spacing: 2px;
+  line-height: 18px;
+}
+
+main .container .step3 {
+  font-family: "Inter", sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0px 0px 70px 0px;
+  word-spacing: 2px;
+  line-height: 18px;
+}
+
+footer p {
+  text-align: center;
+  color: #8c8c8c;
+  padding: 10px 0px 20px 0px;
 }
