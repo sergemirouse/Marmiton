@@ -1,0 +1,103 @@
+/* GENERAL */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #efefef;
+}
+
+.container {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+section {
+  background-color: #fff;
+  margin: 60px 30px;
+  border-radius: 20px;
+}
+
+p {
+  height: 22px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #393c6c;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f3735f;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #393c6c;
+  height: 22px;
+}
+
+/* -----O-----O----- */
+/* -----HEADER----- */
+/* -----O-----O----- */
+
+header {
+  background-color: #fff;
+  height: 73 px;
+  border-bottom: 1px #f3735f;
+}
+
+header img {
+  width: 240px;
+  height: 38px;
+}
+
+/* -----O-----O----- */
+/* -----MAIN----- */
+/* -----O-----O----- */
+
+main h1.container {
+  padding: 10px 0;
+}
+
+/* ---Baseline--- */
+
+.baseline {
+  font-size: 12px;
+  color: #6c6c6c;
+  text-align: center;
+}
+
+/* ---Time--- */
+
+.time {
+  background-color: #8a98b1;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  line-height: 60px;
+  height: 60px;
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* ---SECTION CREPES---*/
+
+.crepes img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 10px;
+  margin: 30px auto;
+}
